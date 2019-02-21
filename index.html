@@ -1,20 +1,27 @@
 <html>
   <head>
-    <title>emotional dog</title>
+    <title>Emotional dog</title>
 
   </head>
 
   <body>
     <dog></dog>
+    <form-input> </form-input>
+    <parent-child></parent-child>
+
     <script type="riot/tag" src="dog.tag"></script>
+    <script type="riot/tag" src="form-input.tag"></script>
+    <script src="parent-child.tag" type="riot/tag"></script>
+
+
     <script src="https://cdn.jsdelivr.net/npm/riot@3.8/riot+compiler.min.js"></script>
     <script>riot.mount('*')</script>
 
     <style>
     body{
       text-align: center;
-      padding: 15em;
-    
+      padding: 10em;
+
     }
     </style>
   </body>
